@@ -1,0 +1,27 @@
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    width: 60%;
+}
+
+.convert-icon {
+    display: flex;
+    align-items: flex-end;
+    p {
+        margin: 0;
+        padding: 0 1rem;
+    }
+}
+
+button {
+    height: 22px;
+    align-self: flex-end;
+    margin-left: 1rem;
+    cursor: pointer;
+}
